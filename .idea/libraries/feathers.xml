@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="feathers" type="flex">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../feathersui-starling-master/source" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
