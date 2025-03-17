@@ -8,8 +8,14 @@
             <entry library-id="164ba885-edf6-4796-99a3-6252beca3497">
               <dependency linkage="Merged" />
             </entry>
+            <entry library-name="starling" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="feathers" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
-          <sdk name="AIRSDK" />
+          <sdk name="AIRSDK_51.1.3" />
         </dependencies>
         <compiler-options />
         <packaging-air-desktop />
@@ -22,8 +28,14 @@
             <entry library-id="6073e237-ef32-4c5d-ad9a-3fd8a0478754">
               <dependency linkage="Merged" />
             </entry>
+            <entry library-name="starling" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="feathers" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
-          <sdk name="AIRSDK" />
+          <sdk name="AIRSDK_51.1.3" />
         </dependencies>
         <compiler-options />
         <packaging-air-desktop />
@@ -36,8 +48,14 @@
             <entry library-id="f5236d73-0ca2-4aa8-9b3a-a2cb44fda27e">
               <dependency linkage="Merged" />
             </entry>
+            <entry library-name="starling" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="feathers" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
-          <sdk name="AIRSDK" />
+          <sdk name="AIRSDK_51.1.3" />
         </dependencies>
         <compiler-options />
         <packaging-air-desktop use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/tests/src/Main-app.xml" package-file-name="test" />
@@ -59,8 +77,14 @@
             <entry library-id="26a2da7c-5184-4166-a96b-5aac91e2ba03">
               <dependency linkage="Merged" />
             </entry>
+            <entry library-name="starling" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-name="feathers" library-level="project">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
-          <sdk name="AIRSDK" />
+          <sdk name="AIRSDK_51.1.3" />
         </dependencies>
         <compiler-options />
         <packaging-air-desktop use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/tests/src/Main-app.xml" package-file-name="test_all" />
@@ -80,7 +104,7 @@
       <sourceFolder url="file://$MODULE_DIR$/starling-builder-editor/tests/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tests/src" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="AIRSDK" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="jdk" jdkName="AIRSDK_51.1.3" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library" exported="">
       <library type="flex">
@@ -156,5 +180,8 @@
         <jarDirectory url="file://$MODULE_DIR$/starling-builder-editor/libs" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" exported="" name="src" level="project" />
+    <orderEntry type="library" exported="" name="starling" level="project" />
+    <orderEntry type="library" exported="" name="source" level="project" />
   </component>
 </module>
